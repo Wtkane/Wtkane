@@ -1,0 +1,161 @@
+
+/*First CSS section is for diffrent text sizes. It is alphabetical as are all sections!*/
+h1{
+  border-style: solid;
+  border-radius: 1in;
+  text-align: center;
+  background-color: cornflowerblue;
+  color: antiquewhite;
+  text-shadow: black;
+  border-color: black;
+}
+h2{
+  background-color: lightblue;
+  color: black;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  text-align: center;
+  text-shadow: 2px 2px white;
+  border-style: solid;
+  border-width: 3px; 
+}
+
+h2.heading {
+  color: white;
+  text-transform: capitalize;
+}
+
+h4{
+  width: 500px;
+  text-align: center;
+  background-color: lightblue;
+  padding: inherit;
+  border-style: solid;
+  border-color: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h4.link{
+  text-decoration: none ;
+}
+h6.notice{
+  color:blueviolet;
+  text-decoration: underline;
+}
+
+
+
+
+/*Seccond CSS section is for diffrent block legth text elements. It is alphabetical as are all sections!*/
+
+body {
+  background-color: rgb(240, 234, 214);
+  
+  color:black;
+  padding: 20px;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;  line-height: 1.25;
+  visibility: visible;
+}
+footer{
+  background-color: cornflowerblue;
+}
+p{
+  text-align: center;
+}
+#PageHeaderAndFooterBox {
+  background-color: lightblue;
+  letter-spacing: 2px;
+  color: inherit;
+  padding: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  word-spacing: 1px;
+  text-shadow: 2px 2px white;
+  
+  border-style:ridge;
+  border-width: 5px;
+  border-color: white;
+}
+
+
+
+/*Third CSS section is for diffrent image/video elements. It is alphabetical as are all sections!*/
+img{
+  border-style: solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img.imgTable{
+  border-style: inherit;
+  border-top-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+video{
+  border-style: solid;
+  border-top-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+
+/*Fourth CSS section is for diffrent table/list/form elements. It is alphabetical as are all sections!*/
+.banner{
+  background-color: skyblue;
+  border-spacing: 10 px;
+}
+form{
+  background-color: inherit
+}
+fieldset{
+  background-color: lightblue;
+}
+iframe{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+legend{
+  background-color: cornflowerblue;
+  border-style: outset;
+  border-color: black;
+  border-radius: 5px;
+  border-width: 4px;
+}
+#ListBox {
+  background-color: lightblue;
+  padding: 40px;
+  text-align: left;
+}
+td{
+  background-color: lightskyblue;
+  border-style: solid;
+  border-color: black;
+}
+th{
+  background-color: seashell;
+  border-style: solid;
+  border-color: black;
+}
+.TopNavtable{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Fifth CSS section is for diffrent link related elements. It is alphabetical as are all sections!*/
+a:hover {
+  background-color: white;
+}
+a:visited {
+  color: rgb(127, 13, 150);
+  text-decoration-color: white;
+}
