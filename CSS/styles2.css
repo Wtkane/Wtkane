@@ -108,7 +108,7 @@ video{
 }
 
 
-/*Fourth CSS section is for diffrent table/list/form elements. It is alphabetical as are all sections!*/
+/*Fourth CSS section is for diffrent table/list/form/iframe elements. It is alphabetical as are all sections!*/
 .banner{
   background-color: skyblue;
   border-spacing: 10 px;
@@ -120,8 +120,8 @@ fieldset{
   background-color: lightblue;
 }
 iframe{
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 25%;
+  margin-right: 25%;
   width: 50%;
 }
 legend{
